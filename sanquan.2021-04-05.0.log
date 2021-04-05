@@ -1,0 +1,8 @@
+2021-04-05 20:58:55,553 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on tuojiangdeMBP with PID 8757 (/Users/sc/Desktop/sanquan/sanquan-java/target/classes started by sc in /Users/sc/Desktop/sanquan/sanquan-java)
+2021-04-05 20:58:55,556 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-05 20:58:55,556 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-05 20:58:58,142 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 2.956 seconds (JVM running for 3.362)
+2021-04-05 21:00:12,720 INFO (LoginController.java:185)- 登录验证码value：324503
+2021-04-05 21:00:12,721 INFO (LoginController.java:186)- 登录验证码key：VI_18c112d5-b15a-400c-a852-a47af76cde95
+2021-04-05 21:02:37,270 INFO (LoginController.java:185)- 登录验证码value：582341
+2021-04-05 21:02:37,271 INFO (LoginController.java:186)- 登录验证码key：VI_926dc71e-645f-4893-912e-5d3b58805d88
