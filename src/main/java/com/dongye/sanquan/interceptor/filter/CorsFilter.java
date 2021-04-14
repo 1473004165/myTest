@@ -1,6 +1,6 @@
 package com.dongye.sanquan.interceptor.filter;
 
-
+import org.springframework.stereotype.Component;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import javax.servlet.*;
@@ -9,14 +9,13 @@ import java.io.IOException;
 
 /**
  * @author 章卜
- * @version 1.0
- * @date 2021/04/04 13:25
+ * @since 2020-12-16
  */
-
+@Component
 public class CorsFilter implements Filter {
 
 
-    public CorsFilter(UrlBasedCorsConfigurationSource source) {
+    public CorsFilter() {
 
     }
 
@@ -31,8 +30,9 @@ public class CorsFilter implements Filter {
         response.setHeader("Access-Control-Allow-Origin", "*");
         response.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS, DELETE");
         response.setHeader("Access-Control-Max-Age", "3600");
-        response.setHeader("Access-Control-Allow-Headers", "x-requested-with");
-        filterChain.doFilter(servletRequest,servletResponse);
+        response.setHeader("Access-Control-Allow-Headers", "Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild");
+        response.setHeader("Access-Control-Allow-Credentials", "true");
+        filterChain.doFilter(servletRequest, servletResponse);
     }
 
     @Override

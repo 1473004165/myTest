@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 跨域请求配置
+ *
  * @author 章卜
- * @version 1.0
- * @date 2021/04/04 13:25
+ * @since 2020-12-16
  */
 
 public class MyUserFilter extends UserFilter {

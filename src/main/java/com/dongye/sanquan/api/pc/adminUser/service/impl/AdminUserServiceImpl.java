@@ -35,9 +35,10 @@ public class AdminUserServiceImpl extends ServiceImpl<AdminUserMapper, SysAdminE
         if (user.getLoginId()!= null && !"".equals(user.getLoginId())) {
             qw.eq("login_id", user.getLoginId());
         }
-
         return userMapper.selectOne(qw);
     }
+
+
 
     @Override
     @Transactional(rollbackFor = RuntimeException.class)
