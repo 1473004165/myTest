@@ -1,7 +1,7 @@
-package com.dongye.sanquan.api.mb.order.roomOrder.service;
+package com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.service;
 
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.AvailableRoomVo;
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.OrderRequirementVo;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.AvailableRoomVo;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.OrderRequirementVo;
 import com.dongye.sanquan.pojo.rmso.ResultVO;
 
 import java.util.List;

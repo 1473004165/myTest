@@ -1,8 +1,8 @@
-package com.dongye.sanquan.api.mb.order.roomOrder.controller;
+package com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.controller;
 
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.AvailableRoomVo;
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.OrderRequirementVo;
-import com.dongye.sanquan.api.mb.order.roomOrder.service.OrderService;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.AvailableRoomVo;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.OrderRequirementVo;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.service.OrderService;
 import com.dongye.sanquan.pojo.rmso.ResultVO;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;

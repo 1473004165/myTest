@@ -1,4 +1,4 @@
-package com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo;
+package com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModel;

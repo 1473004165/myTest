@@ -1,10 +1,13 @@
-package com.dongye.sanquan.api.mb.order.roomOrder.mapper;
+package com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.mapper;
 
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.AvailableRoomVo;
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.OrderRequirementVo;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.AvailableRoomVo;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.OrderRequirementVo;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
+
 import java.util.List;
+
 
 /**
  * @author ：杨子硕
@@ -13,7 +16,8 @@ import java.util.List;
 
 @Repository
 @Mapper
-public interface OrderMapper {
+public interface OrderMapper extends BaseMapper<OrderRequirementVo> {
+
     /**
      * @description：
      */

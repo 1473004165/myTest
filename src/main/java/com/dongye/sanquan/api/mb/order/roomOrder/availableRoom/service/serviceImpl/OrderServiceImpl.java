@@ -1,9 +1,9 @@
-package com.dongye.sanquan.api.mb.order.roomOrder.service.serviceImpl;
+package com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.service.serviceImpl;
 
-import com.dongye.sanquan.api.mb.order.roomOrder.mapper.OrderMapper;
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.AvailableRoomVo;
-import com.dongye.sanquan.api.mb.order.roomOrder.pojo.vo.OrderRequirementVo;
-import com.dongye.sanquan.api.mb.order.roomOrder.service.OrderService;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.mapper.OrderMapper;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.OrderRequirementVo;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.service.OrderService;
+import com.dongye.sanquan.api.mb.order.roomOrder.availableRoom.pojo.vo.AvailableRoomVo;
 import com.dongye.sanquan.pojo.rmso.ResultCode;
 import com.dongye.sanquan.pojo.rmso.ResultVO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,6 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public ResultVO<List<AvailableRoomVo>> selectAvailableRoom(OrderRequirementVo orderRequirementVo) throws Exception{
-        System.out.println(orderRequirementVo.getOrderPeopleNum());
         if(orderRequirementVo.getOrderPeopleNum() != null && orderRequirementVo.getOrderPeopleNum() >= 2){
             if(orderRequirementVo.getOrderStartTime() != null || orderRequirementVo.getOrderEndTime() != null){
                 List<AvailableRoomVo> availableRoomVoList = orderMapper.selectAvailableRoom(orderRequirementVo);
