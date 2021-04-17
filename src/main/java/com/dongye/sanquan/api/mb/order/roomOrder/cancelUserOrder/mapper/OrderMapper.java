@@ -1,4 +1,4 @@
-package com.dongye.sanquan.api.mb.order.roomOrder.cancelOrder.mapper;
+package com.dongye.sanquan.api.mb.order.roomOrder.cancelUserOrder.mapper;
 
 import org.apache.ibatis.annotations.Update;
 import org.mapstruct.Mapper;

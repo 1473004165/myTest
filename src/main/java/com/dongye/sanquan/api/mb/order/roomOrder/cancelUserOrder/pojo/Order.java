@@ -1,4 +1,4 @@
-package com.dongye.sanquan.api.mb.order.roomOrder.cancelOrder.pojo;
+package com.dongye.sanquan.api.mb.order.roomOrder.cancelUserOrder.pojo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
