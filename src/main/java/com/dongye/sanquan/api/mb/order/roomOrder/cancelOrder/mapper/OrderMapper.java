@@ -1,6 +1,5 @@
-package com.dongye.sanquan.api.mb.order.cancelorder.mapper;
+package com.dongye.sanquan.api.mb.order.roomOrder.cancelOrder.mapper;
 
-import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.mapstruct.Mapper;
 import org.springframework.stereotype.Repository;
