@@ -18,13 +18,13 @@ import java.util.List;
  */
 @Api("移动端自习室预约Controller")
 @RestController
-@RequestMapping("/mb/order")
+@RequestMapping("/mb/order/roomOrder")
 public class OrderController {
 
     @Autowired
     OrderService orderService;
 
-    @PostMapping("/selectRoom")
+    @PostMapping("/availableRoom")
     public ResultVO<List<AvailableRoomVo>> selectAvailableRoom(OrderRequirementVo orderRequirementVo) throws Exception{
         return orderService.selectAvailableRoom(orderRequirementVo);
     }

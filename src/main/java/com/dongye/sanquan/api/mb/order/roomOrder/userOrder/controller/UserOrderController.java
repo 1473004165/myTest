@@ -24,13 +24,13 @@ import java.util.List;
  */
 @Api("移动端自习室预约Controller")
 @RestController
-@RequestMapping("/mb/order")
+@RequestMapping("/mb/order/roomOrder")
 public class UserOrderController {
 
     @Autowired
     UserOrderService userOrderService;
 
-    @GetMapping("/selectUserOrder")
+    @GetMapping("/userOrder")
     public ResultVO<List<UserOrderVo>> selectUserOrder(Long userId) throws Exception{
         return userOrderService.selectUserOrder(userId);
     }

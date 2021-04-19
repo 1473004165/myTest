@@ -1,6 +1,6 @@
-package com.dongye.sanquan.api.mb.order.roomorder.service;
+package com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.service;
 
-import com.dongye.sanquan.api.mb.order.roomorder.pojo.OrderRoom;
+import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.pojo.OrderRoom;
 import com.dongye.sanquan.pojo.rmso.ResultVO;
 import org.springframework.stereotype.Service;
 
@@ -13,5 +13,5 @@ public interface OrderRoomService {
     /**
      *添加订单信息
      */
-   ResultVO addOrderData(OrderRoom orderRoom);
+    public ResultVO addOrderData(OrderRoom orderRoom);
 }

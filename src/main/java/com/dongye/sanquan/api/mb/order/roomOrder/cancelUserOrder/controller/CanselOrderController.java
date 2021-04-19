@@ -1,5 +1,6 @@
 package com.dongye.sanquan.api.mb.order.roomOrder.cancelUserOrder.controller;
 
+import com.dongye.sanquan.api.mb.order.roomOrder.cancelUserOrder.service.CancelOrderService;
 import com.dongye.sanquan.api.mb.order.roomOrder.cancelUserOrder.service.Imp.CancelOrderServiceImpl;
 import com.dongye.sanquan.pojo.rmso.ResultCode;
 import com.dongye.sanquan.pojo.rmso.ResultVO;
@@ -14,14 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @Api("移动端取消预约Controller")
 @RestController
-@RequestMapping("/mb/order/cancelorder")
+@RequestMapping("/mb/order/roomOrder")
 public class CanselOrderController {
 
     @Autowired
-    CancelOrderServiceImpl cancelOrderServiceImpl;
-    @RequestMapping("/cancelOrderById")
+    CancelOrderService cancelOrderService;
+    @RequestMapping("/cancelOrder")
    public ResultVO cancelOrderById(Integer orderId){
-        cancelOrderServiceImpl.updateOrderStatus(orderId);
-        return new ResultVO(ResultCode.SUCCESS,"取消成功");
+        return cancelOrderService.updateOrderStatus(orderId);
     }
 }

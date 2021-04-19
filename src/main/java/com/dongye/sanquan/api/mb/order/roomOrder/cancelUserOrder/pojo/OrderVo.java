@@ -17,7 +17,7 @@ import java.util.Date;
 @Data
 @Repository
 @TableName("room_order")
-public class Order {
+public class OrderVo {
     /**
      * 预约编号
      */
@@ -27,7 +27,7 @@ public class Order {
      * 用户ID
      */
     @TableField("USER_ID")
-    private Integer userId=0;
+    private Integer userId;
     /**
      * 研讨室ID
      */
