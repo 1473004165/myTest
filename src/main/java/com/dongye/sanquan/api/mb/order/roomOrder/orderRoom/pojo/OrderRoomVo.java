@@ -5,8 +5,11 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
+import sun.util.resources.LocaleData;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -17,7 +20,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @TableName("room_order")
-public class OrderRoom implements Serializable {
+public class OrderRoomVo implements Serializable {
     /**
      * 用户ID
      */
@@ -42,12 +45,14 @@ public class OrderRoom implements Serializable {
      * 预约开始时间
      */
     @TableField("ORDER_START_TIME")
-    private Date orderStartTime;
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime orderStartTime;
     /**
      * 预约结束时间
      */
     @TableField("ORDER_END_TIME")
-    private Date orderEndTime;
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime orderEndTime;
     /**
      * 创建时间
      */

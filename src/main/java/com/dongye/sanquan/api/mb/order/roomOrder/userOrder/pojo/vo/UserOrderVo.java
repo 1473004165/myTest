@@ -10,6 +10,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * <p>
@@ -55,10 +56,12 @@ public class UserOrderVo implements Serializable {
 
     @ApiModelProperty(value = "预约开始时间")
     @TableField("ORDER_START_TIME")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date orderStartTime;
 
     @ApiModelProperty(value = "预约结束时间")
     @TableField("ORDER_END_TIME")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date orderEndTime;
 
     @ApiModelProperty(value = "预约状态，1：‘待审核’，2：’待使用’，3：‘使用中’，4：‘已结束’，5：’已取消‘，6：’审核失败‘")

@@ -1,7 +1,7 @@
 package com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.service.serviceImp;
 
 import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.mapper.OrderRoomMapper;
-import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.pojo.OrderRoom;
+import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.pojo.OrderRoomVo;
 import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.service.OrderRoomService;
 import com.dongye.sanquan.pojo.rmso.ResultCode;
 import com.dongye.sanquan.pojo.rmso.ResultVO;
@@ -19,12 +19,12 @@ public class OrderRoomServiceImpl implements OrderRoomService {
 
     /**
      * 向表中添加数据
-     * @param orderRoom
+     * @param orderRoomVo
      * @return
      */
     @Override
-    public ResultVO addOrderData(OrderRoom orderRoom){
-        orderRoomMapper.insert(orderRoom);
+    public ResultVO addOrderData(OrderRoomVo orderRoomVo){
+        orderRoomMapper.insert(orderRoomVo);
         return new ResultVO(ResultCode.SUCCESS,"操作成功");
     }
 }

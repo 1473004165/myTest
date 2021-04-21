@@ -1,6 +1,6 @@
 package com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.controller;
 
-import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.pojo.OrderRoom;
+import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.pojo.OrderRoomVo;
 import com.dongye.sanquan.api.mb.order.roomOrder.orderRoom.service.OrderRoomService;
 import com.dongye.sanquan.pojo.rmso.ResultVO;
 import io.swagger.annotations.Api;
@@ -21,8 +21,8 @@ public class OderRoomController {
     @Autowired
     OrderRoomService orderRoomService;
      @PostMapping("/orderRoom")
-    public ResultVO orderRoom(OrderRoom orderRoom){
+    public ResultVO orderRoom(OrderRoomVo orderRoomVo){
 
-         return orderRoomService.addOrderData(orderRoom);
+         return orderRoomService.addOrderData(orderRoomVo);
      }
 }
