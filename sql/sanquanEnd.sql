@@ -13,6 +13,8 @@
 
  Date: 15/04/2021 02:33:14
 */
+/*CREATE DATABASE sanquan;
+USE DATABASE sanquan;*/
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
