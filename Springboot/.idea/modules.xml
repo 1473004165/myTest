@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../spring-test/spring-test.iml" filepath="$PROJECT_DIR$/../spring-test/spring-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-test2/spring-test2.iml" filepath="$PROJECT_DIR$/../spring-test2/spring-test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_swagger/spring_swagger.iml" filepath="$PROJECT_DIR$/../spring_swagger/spring_swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/../springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot-mybatisplus/springboot-mybatisplus.iml" filepath="$PROJECT_DIR$/../springboot-mybatisplus/springboot-mybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test_this/test_this.iml" filepath="$PROJECT_DIR$/../test_this/test_this.iml" />
+    </modules>
+  </component>
+</project>
