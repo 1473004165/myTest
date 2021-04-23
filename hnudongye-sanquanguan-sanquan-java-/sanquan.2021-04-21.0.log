@@ -1,0 +1,34 @@
+2021-04-21 20:32:27,712 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on 翔哥的电脑 with PID 17792 (D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-\target\classes started by Legion in D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-)
+2021-04-21 20:32:27,718 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-21 20:32:27,719 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-21 20:32:36,170 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 9.226 seconds (JVM running for 11.378)
+2021-04-21 20:34:46,536 INFO (CustomizedModularRealmAuthenticator.java:27)- CustomizedModularRealmAuthenticator:method doAuthenticate() execute 
+2021-04-21 20:58:51,851 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on 翔哥的电脑 with PID 15280 (D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-\target\classes started by Legion in D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-)
+2021-04-21 20:58:51,852 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-21 20:58:51,855 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-21 20:58:59,761 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 8.605 seconds (JVM running for 10.676)
+2021-04-21 20:59:25,301 INFO (CustomizedModularRealmAuthenticator.java:27)- CustomizedModularRealmAuthenticator:method doAuthenticate() execute 
+2021-04-21 21:00:47,710 INFO (CustomizedModularRealmAuthenticator.java:27)- CustomizedModularRealmAuthenticator:method doAuthenticate() execute 
+2021-04-21 21:01:46,531 INFO (CustomizedModularRealmAuthenticator.java:27)- CustomizedModularRealmAuthenticator:method doAuthenticate() execute 
+2021-04-21 21:04:42,882 INFO (CustomizedModularRealmAuthenticator.java:27)- CustomizedModularRealmAuthenticator:method doAuthenticate() execute 
+2021-04-21 21:07:34,294 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on 翔哥的电脑 with PID 11876 (D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-\target\classes started by Legion in D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-)
+2021-04-21 21:07:34,298 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-21 21:07:34,298 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-21 21:07:42,178 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 8.513 seconds (JVM running for 10.524)
+2021-04-21 21:07:43,631 INFO (CustomizedModularRealmAuthenticator.java:27)- CustomizedModularRealmAuthenticator:method doAuthenticate() execute 
+2021-04-21 21:14:55,138 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on 翔哥的电脑 with PID 6504 (D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-\target\classes started by Legion in D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-)
+2021-04-21 21:14:55,142 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-21 21:14:55,142 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-21 21:15:02,979 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 8.583 seconds (JVM running for 10.688)
+2021-04-21 21:16:22,189 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on 翔哥的电脑 with PID 11696 (D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-\target\classes started by Legion in D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-)
+2021-04-21 21:16:22,189 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-21 21:16:22,192 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-21 21:16:30,023 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 8.514 seconds (JVM running for 10.631)
+2021-04-21 23:16:55,732 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on 翔哥的电脑 with PID 16436 (D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-\target\classes started by Legion in D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-)
+2021-04-21 23:16:55,733 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-21 23:16:55,735 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-21 23:17:01,742 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 6.822 seconds (JVM running for 8.823)
+2021-04-21 23:35:00,107 INFO (StartupInfoLogger.java:50)- Starting SanquanApplication on 翔哥的电脑 with PID 7276 (D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-\target\classes started by Legion in D:\IdeaProjects\hnudongye-sanquanguan-sanquan-java-)
+2021-04-21 23:35:00,110 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-21 23:35:00,110 INFO (SpringApplication.java:679)- The following profiles are active: test
+2021-04-21 23:35:06,257 INFO (StartupInfoLogger.java:59)- Started SanquanApplication in 6.973 seconds (JVM running for 9.061)
