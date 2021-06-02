@@ -1,0 +1,42 @@
+
+命令格式 Python yolo_vedio.py --image 图片路径
+
+{
+ "imageName":"图片名称",
+ "imageUrl":"图片路径（命令中输入的路径）",
+ "imageNewName":"产生的新的图片名称(原图片名字前加一个new)",
+ "imageNewUrl":"产生的新图片路径（生成的新图片路径）",
+ "personNum":"人数",
+ "maskNum":"戴口罩人数",
+ "noMaskNum":"未带口罩人数"
+}
+
+
+ String execmd=commend+" "+yoloPath+" --image --imgpath "+imgpath;
+         Process process = Runtime.getRuntime ().exec ("cmd");
+         SequenceInputStream sis = new SequenceInputStream (process.getInputStream (), process.getErrorStream ());
+         InputStreamReader isr = new InputStreamReader (sis, "gbk");
+         BufferedReader br = new BufferedReader (isr);
+         // next command
+         OutputStreamWriter osw = new OutputStreamWriter (process.getOutputStream ());
+         BufferedWriter bw = new BufferedWriter (osw);
+         bw.write ("cd "+filePath);
+         bw.newLine ();
+         bw.write (execmd);
+         bw.newLine ();
+         bw.flush ();
+         bw.close ();
+         osw.close ();
+         // read
+         StringBuffer buffer=new StringBuffer();
+         String line=null;
+         while (null != ( line = br.readLine () ))
+         {
+             buffer.append(line);
+         }
+         process.destroy ();
+         br.close ();
+         isr.close ();
+         String json = collectJSON(buffer.toString());
+         YoloImage yoloImage = JSON.parseObject(json, YoloImage.class);
+         return yoloImage;
