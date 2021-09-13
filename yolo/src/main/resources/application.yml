@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    prefix: /templates/
+    suffix: .html
+
+  mvc:
+    static-path-pattern: /static/**
+
+  servlet:
+    multipart:
+      maxFileSize: 50MB
+      maxRequestSize: 50MB

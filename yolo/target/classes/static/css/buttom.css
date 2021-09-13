@@ -1,0 +1,77 @@
+@import"./index.css";
+.mod-buttom{
+  width: 100%;
+  height: 200px;
+  /*background-color: rgba(11, 13, 49, 0.4);*/
+  background-color: #c9c9c9;
+}
+.buttom1 {
+  height: 60px;
+}
+.buttom1-left{
+  float: left;
+}
+.buttom1-left li{
+  float: left;
+  /*color: rgba(255,255,255,0.90);*/
+  color: #323233;
+  line-height: 60px;
+  font-size: 14px;
+  /*text-decoration: none;*/
+  margin-left: 50px;
+}
+.buttom1-right{
+  float: right;
+  font-size: 14px;
+}
+.buttom1-right p{
+  /*color: rgba(255,255,255,0.9);*/
+  color: #323233;
+  padding-right: 50px;
+  line-height: 60px;
+}
+.buttom1-left li:hover{
+  color: #000;
+  cursor: pointer;
+}
+.buttom2{
+  width: 100%;
+}
+.buttom2-center {
+  width: 1000px;
+  margin: 0px auto;
+  border-top: 1px solid rgba(0,0,0,0.10);
+  font-size: 14px;
+  line-height: 60px;
+  /*color: rgba(255,255,255,0.30);*/
+  color: #323233;
+  font-weight: normal;
+}
+.buttom2-center h3{
+  font-weight: 400;
+  /*color: rgba(255,255,255,0.50);*/
+  color: #323233;
+  line-height: 40px;
+}
+.buttom2-center p{
+  font-weight: 300;
+  /*color: rgba(255,255,255,0.50);*/
+  color: #323233;
+  font-family: "Microsoft PhagsPa";
+  line-height: 22px;
+}
+.buttom2-left{
+  float: left;
+  padding-top: 20px;
+}
+.buttom2-left{
+  line-height: 26px;
+}
+.buttom2-right{
+  float: right;
+  margin-right: 16px;
+}
+.buttom2-right{
+  line-height: 20px;
+  padding-top: 80px;
+}
